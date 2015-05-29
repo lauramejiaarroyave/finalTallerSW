@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3993B1FF-B064-41FE-ACA0-2321033AFE33</string>
+	<key>IDESourceControlProjectName</key>
+	<string>finalTallerSW</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6303C34F6B9816CE26AEE642CEFDF3FAE1B9BBF</key>
+		<string>https://github.com/lauramejiaarroyave/finalTallerSW.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>finalTallerSW.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6303C34F6B9816CE26AEE642CEFDF3FAE1B9BBF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lauramejiaarroyave/finalTallerSW.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6303C34F6B9816CE26AEE642CEFDF3FAE1B9BBF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6303C34F6B9816CE26AEE642CEFDF3FAE1B9BBF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>finalTallerSW</string>
+		</dict>
+	</array>
+</dict>
+</plist>
