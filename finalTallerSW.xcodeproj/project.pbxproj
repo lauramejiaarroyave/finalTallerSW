@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C42F4D11B1226C70080D48B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F4D01B1226C70080D48B /* main.m */; };
+		9C42F4D41B1226C70080D48B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F4D31B1226C70080D48B /* AppDelegate.m */; };
+		9C42F4D71B1226C70080D48B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F4D61B1226C70080D48B /* ViewController.m */; };
+		9C42F4DA1B1226C70080D48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4D81B1226C70080D48B /* Main.storyboard */; };
+		9C42F4DC1B1226C70080D48B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4DB1B1226C70080D48B /* Images.xcassets */; };
+		9C42F4DF1B1226C70080D48B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4DD1B1226C70080D48B /* LaunchScreen.xib */; };
+		9C42F4EB1B1226C70080D48B /* finalTallerSWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F4EA1B1226C70080D48B /* finalTallerSWTests.m */; };
+		9C42F4F61B12283C0080D48B /* home.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4F41B12283C0080D48B /* home.gif */; };
+		9C42F4FC1B122CC10080D48B /* lp.icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4F71B122CC10080D48B /* lp.icon.png */; };
+		9C42F4FD1B122CC10080D48B /* Music-player-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4F81B122CC10080D48B /* Music-player-icon.png */; };
+		9C42F4FE1B122CC10080D48B /* note-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4F91B122CC10080D48B /* note-icon.png */; };
+		9C42F4FF1B122CC10080D48B /* Od0JWU1432483104.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4FA1B122CC10080D48B /* Od0JWU1432483104.png */; };
+		9C42F5001B122CC10080D48B /* sgsGkk1432483044.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F4FB1B122CC10080D48B /* sgsGkk1432483044.png */; };
+		9C42F5031B122F460080D48B /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5011B122F460080D48B /* register.png */; };
+		9C42F5041B122F460080D48B /* user-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5021B122F460080D48B /* user-login.png */; };
+		9C42F5081B1233210080D48B /* UserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F5071B1233210080D48B /* UserHomeViewController.m */; };
+		9C42F5281B1235A20080D48B /* Alphaville - Big in Japan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50A1B1235A20080D48B /* Alphaville - Big in Japan.mp3 */; };
+		9C42F5291B1235A20080D48B /* Amandras - Another love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50B1B1235A20080D48B /* Amandras - Another love.mp3 */; };
+		9C42F52A1B1235A20080D48B /* Gary Low - You are a danger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50C1B1235A20080D48B /* Gary Low - You are a danger.mp3 */; };
+		9C42F52B1B1235A20080D48B /* Koto - Jabdah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50D1B1235A20080D48B /* Koto - Jabdah.mp3 */; };
+		9C42F52C1B1235A20080D48B /* New Romantique - Shy like an angel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50E1B1235A20080D48B /* New Romantique - Shy like an angel.mp3 */; };
+		9C42F52D1B1235A20080D48B /* Radiorama - Aliens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F50F1B1235A20080D48B /* Radiorama - Aliens.mp3 */; };
+		9C42F52E1B1235A20080D48B /* Arkasia - Back as one original.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5111B1235A20080D48B /* Arkasia - Back as one original.mp3 */; };
+		9C42F52F1B1235A20080D48B /* Empire Of The Sun - Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5121B1235A20080D48B /* Empire Of The Sun - Alive.mp3 */; };
+		9C42F5301B1235A20080D48B /* Flo rida - Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5131B1235A20080D48B /* Flo rida - Whistle.mp3 */; };
+		9C42F5311B1235A20080D48B /* PSY - Gangnam style.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5141B1235A20080D48B /* PSY - Gangnam style.mp3 */; };
+		9C42F5321B1235A20080D48B /* Rihanna - Diamonds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5151B1235A20080D48B /* Rihanna - Diamonds.mp3 */; };
+		9C42F5331B1235A20080D48B /* Sia - Chandelier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5161B1235A20080D48B /* Sia - Chandelier.mp3 */; };
+		9C42F5341B1235A20080D48B /* Steve aoki - Cake face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5171B1235A20080D48B /* Steve aoki - Cake face.mp3 */; };
+		9C42F5351B1235A20080D48B /* Beyonce - Sweet dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5191B1235A20080D48B /* Beyonce - Sweet dreams.mp3 */; };
+		9C42F5361B1235A20080D48B /* Eminem ft Rihanna - The monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51A1B1235A20080D48B /* Eminem ft Rihanna - The monster.mp3 */; };
+		9C42F5371B1235A20080D48B /* Gotye - Somebody that i used to know.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51B1B1235A20080D48B /* Gotye - Somebody that i used to know.mp3 */; };
+		9C42F5381B1235A20080D48B /* Imagine Dragons - Radioactive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51C1B1235A20080D48B /* Imagine Dragons - Radioactive.mp3 */; };
+		9C42F5391B1235A20080D48B /* Katy Perry - Roar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51D1B1235A20080D48B /* Katy Perry - Roar.mp3 */; };
+		9C42F53A1B1235A20080D48B /* Lady Gaga - Poker face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51E1B1235A20080D48B /* Lady Gaga - Poker face.mp3 */; };
+		9C42F53B1B1235A20080D48B /* Pharrell Williams - Happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F51F1B1235A20080D48B /* Pharrell Williams - Happy.mp3 */; };
+		9C42F53C1B1235A20080D48B /* Pink - Just give me a reason.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5201B1235A20080D48B /* Pink - Just give me a reason.mp3 */; };
+		9C42F53D1B1235A20080D48B /* AC:DC - Black in black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5221B1235A20080D48B /* AC:DC - Black in black.mp3 */; };
+		9C42F53E1B1235A20080D48B /* AC:DC - Thunderstruck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5231B1235A20080D48B /* AC:DC - Thunderstruck.mp3 */; };
+		9C42F53F1B1235A20080D48B /* Deep Purple - Smoke on the water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5241B1235A20080D48B /* Deep Purple - Smoke on the water.mp3 */; };
+		9C42F5401B1235A20080D48B /* Queen - Show must go on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5251B1235A20080D48B /* Queen - Show must go on.mp3 */; };
+		9C42F5411B1235A20080D48B /* The Beatles - Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5261B1235A20080D48B /* The Beatles - Girl.mp3 */; };
+		9C42F5421B1235A20080D48B /* The Beatles - Yesterday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5271B1235A20080D48B /* The Beatles - Yesterday.mp3 */; };
+		9C42F5471B123A570080D48B /* 1432504353_PauseNormalRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5441B123A570080D48B /* 1432504353_PauseNormalRed.png */; };
+		9C42F5481B123A570080D48B /* 1432504366_Play1Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5451B123A570080D48B /* 1432504366_Play1Pressed.png */; };
+		9C42F5491B123A570080D48B /* stop1normalorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5461B123A570080D48B /* stop1normalorange.png */; };
+		9C42F54B1B12401F0080D48B /* pListCat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F54A1B12401F0080D48B /* pListCat.plist */; };
+		9C42F54D1B1240380080D48B /* pListDisco.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F54C1B1240380080D48B /* pListDisco.plist */; };
+		9C42F54F1B1240490080D48B /* pListElectro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F54E1B1240490080D48B /* pListElectro.plist */; };
+		9C42F5511B1240560080D48B /* pListPop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5501B1240560080D48B /* pListPop.plist */; };
+		9C42F5531B1240650080D48B /* pListRock.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5521B1240650080D48B /* pListRock.plist */; };
+		9C42F5561B1288050080D48B /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F5551B1288050080D48B /* LogInViewController.m */; };
+		9C42F5581B128A470080D48B /* user-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5571B128A470080D48B /* user-password.png */; };
+		9C42F55A1B128B760080D48B /* list_add_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C42F5591B128B760080D48B /* list_add_user.png */; };
+		9C42F55D1B128C3E0080D48B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F55C1B128C3E0080D48B /* RegisterViewController.m */; };
+		9C42F5611B1293C60080D48B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F5601B1293C60080D48B /* User.m */; };
+		9C42F5641B1294B20080D48B /* UserDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C42F5631B1294B20080D48B /* UserDAO.m */; };
+		9C42F5661B1294FB0080D48B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C42F5651B1294FB0080D48B /* libsqlite3.0.dylib */; };
+		9CDCAE551B13647300F0BDDF /* FavoriteSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCAE541B13647300F0BDDF /* FavoriteSongsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C42F4E51B1226C70080D48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C42F4C31B1226C70080D48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C42F4CA1B1226C70080D48B;
+			remoteInfo = finalTallerSW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C42F4CB1B1226C70080D48B /* finalTallerSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalTallerSW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C42F4CF1B1226C70080D48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C42F4D01B1226C70080D48B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C42F4D21B1226C70080D48B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C42F4D31B1226C70080D48B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C42F4D51B1226C70080D48B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C42F4D61B1226C70080D48B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C42F4D91B1226C70080D48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C42F4DB1B1226C70080D48B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C42F4DE1B1226C70080D48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C42F4E41B1226C70080D48B /* finalTallerSWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalTallerSWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C42F4E91B1226C70080D48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C42F4EA1B1226C70080D48B /* finalTallerSWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalTallerSWTests.m; sourceTree = "<group>"; };
+		9C42F4F41B12283C0080D48B /* home.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = home.gif; sourceTree = "<group>"; };
+		9C42F4F71B122CC10080D48B /* lp.icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lp.icon.png; sourceTree = "<group>"; };
+		9C42F4F81B122CC10080D48B /* Music-player-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music-player-icon.png"; sourceTree = "<group>"; };
+		9C42F4F91B122CC10080D48B /* note-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-icon.png"; sourceTree = "<group>"; };
+		9C42F4FA1B122CC10080D48B /* Od0JWU1432483104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Od0JWU1432483104.png; sourceTree = "<group>"; };
+		9C42F4FB1B122CC10080D48B /* sgsGkk1432483044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sgsGkk1432483044.png; sourceTree = "<group>"; };
+		9C42F5011B122F460080D48B /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = register.png; path = ../register.png; sourceTree = "<group>"; };
+		9C42F5021B122F460080D48B /* user-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-login.png"; path = "../user-login.png"; sourceTree = "<group>"; };
+		9C42F5061B1233210080D48B /* UserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomeViewController.h; sourceTree = "<group>"; };
+		9C42F5071B1233210080D48B /* UserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomeViewController.m; sourceTree = "<group>"; };
+		9C42F50A1B1235A20080D48B /* Alphaville - Big in Japan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alphaville - Big in Japan.mp3"; sourceTree = "<group>"; };
+		9C42F50B1B1235A20080D48B /* Amandras - Another love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amandras - Another love.mp3"; sourceTree = "<group>"; };
+		9C42F50C1B1235A20080D48B /* Gary Low - You are a danger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gary Low - You are a danger.mp3"; sourceTree = "<group>"; };
+		9C42F50D1B1235A20080D48B /* Koto - Jabdah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Koto - Jabdah.mp3"; sourceTree = "<group>"; };
+		9C42F50E1B1235A20080D48B /* New Romantique - Shy like an angel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "New Romantique - Shy like an angel.mp3"; sourceTree = "<group>"; };
+		9C42F50F1B1235A20080D48B /* Radiorama - Aliens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Radiorama - Aliens.mp3"; sourceTree = "<group>"; };
+		9C42F5111B1235A20080D48B /* Arkasia - Back as one original.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arkasia - Back as one original.mp3"; sourceTree = "<group>"; };
+		9C42F5121B1235A20080D48B /* Empire Of The Sun - Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Empire Of The Sun - Alive.mp3"; sourceTree = "<group>"; };
+		9C42F5131B1235A20080D48B /* Flo rida - Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flo rida - Whistle.mp3"; sourceTree = "<group>"; };
+		9C42F5141B1235A20080D48B /* PSY - Gangnam style.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "PSY - Gangnam style.mp3"; sourceTree = "<group>"; };
+		9C42F5151B1235A20080D48B /* Rihanna - Diamonds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rihanna - Diamonds.mp3"; sourceTree = "<group>"; };
+		9C42F5161B1235A20080D48B /* Sia - Chandelier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sia - Chandelier.mp3"; sourceTree = "<group>"; };
+		9C42F5171B1235A20080D48B /* Steve aoki - Cake face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Steve aoki - Cake face.mp3"; sourceTree = "<group>"; };
+		9C42F5191B1235A20080D48B /* Beyonce - Sweet dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beyonce - Sweet dreams.mp3"; sourceTree = "<group>"; };
+		9C42F51A1B1235A20080D48B /* Eminem ft Rihanna - The monster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Eminem ft Rihanna - The monster.mp3"; sourceTree = "<group>"; };
+		9C42F51B1B1235A20080D48B /* Gotye - Somebody that i used to know.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gotye - Somebody that i used to know.mp3"; sourceTree = "<group>"; };
+		9C42F51C1B1235A20080D48B /* Imagine Dragons - Radioactive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imagine Dragons - Radioactive.mp3"; sourceTree = "<group>"; };
+		9C42F51D1B1235A20080D48B /* Katy Perry - Roar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Katy Perry - Roar.mp3"; sourceTree = "<group>"; };
+		9C42F51E1B1235A20080D48B /* Lady Gaga - Poker face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lady Gaga - Poker face.mp3"; sourceTree = "<group>"; };
+		9C42F51F1B1235A20080D48B /* Pharrell Williams - Happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pharrell Williams - Happy.mp3"; sourceTree = "<group>"; };
+		9C42F5201B1235A20080D48B /* Pink - Just give me a reason.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pink - Just give me a reason.mp3"; sourceTree = "<group>"; };
+		9C42F5221B1235A20080D48B /* AC:DC - Black in black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AC:DC - Black in black.mp3"; sourceTree = "<group>"; };
+		9C42F5231B1235A20080D48B /* AC:DC - Thunderstruck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AC:DC - Thunderstruck.mp3"; sourceTree = "<group>"; };
+		9C42F5241B1235A20080D48B /* Deep Purple - Smoke on the water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Deep Purple - Smoke on the water.mp3"; sourceTree = "<group>"; };
+		9C42F5251B1235A20080D48B /* Queen - Show must go on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Queen - Show must go on.mp3"; sourceTree = "<group>"; };
+		9C42F5261B1235A20080D48B /* The Beatles - Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Beatles - Girl.mp3"; sourceTree = "<group>"; };
+		9C42F5271B1235A20080D48B /* The Beatles - Yesterday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Beatles - Yesterday.mp3"; sourceTree = "<group>"; };
+		9C42F5441B123A570080D48B /* 1432504353_PauseNormalRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1432504353_PauseNormalRed.png; sourceTree = "<group>"; };
+		9C42F5451B123A570080D48B /* 1432504366_Play1Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1432504366_Play1Pressed.png; sourceTree = "<group>"; };
+		9C42F5461B123A570080D48B /* stop1normalorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop1normalorange.png; sourceTree = "<group>"; };
+		9C42F54A1B12401F0080D48B /* pListCat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pListCat.plist; sourceTree = "<group>"; };
+		9C42F54C1B1240380080D48B /* pListDisco.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pListDisco.plist; sourceTree = "<group>"; };
+		9C42F54E1B1240490080D48B /* pListElectro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pListElectro.plist; sourceTree = "<group>"; };
+		9C42F5501B1240560080D48B /* pListPop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pListPop.plist; sourceTree = "<group>"; };
+		9C42F5521B1240650080D48B /* pListRock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pListRock.plist; sourceTree = "<group>"; };
+		9C42F5541B1288050080D48B /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		9C42F5551B1288050080D48B /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		9C42F5571B128A470080D48B /* user-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-password.png"; sourceTree = "<group>"; };
+		9C42F5591B128B760080D48B /* list_add_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_add_user.png; sourceTree = "<group>"; };
+		9C42F55B1B128C3E0080D48B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9C42F55C1B128C3E0080D48B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9C42F55F1B1293C60080D48B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9C42F5601B1293C60080D48B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9C42F5621B1294B20080D48B /* UserDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDAO.h; sourceTree = "<group>"; };
+		9C42F5631B1294B20080D48B /* UserDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDAO.m; sourceTree = "<group>"; };
+		9C42F5651B1294FB0080D48B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		9CDCAE531B13647300F0BDDF /* FavoriteSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteSongsViewController.h; sourceTree = "<group>"; };
+		9CDCAE541B13647300F0BDDF /* FavoriteSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteSongsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C42F4C81B1226C70080D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C42F5661B1294FB0080D48B /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C42F4E11B1226C70080D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C42F4C21B1226C70080D48B = {
+			isa = PBXGroup;
+			children = (
+				9C42F5651B1294FB0080D48B /* libsqlite3.0.dylib */,
+				9C42F5521B1240650080D48B /* pListRock.plist */,
+				9C42F5501B1240560080D48B /* pListPop.plist */,
+				9C42F54E1B1240490080D48B /* pListElectro.plist */,
+				9C42F54C1B1240380080D48B /* pListDisco.plist */,
+				9C42F54A1B12401F0080D48B /* pListCat.plist */,
+				9C42F5431B1235A70080D48B /* Music */,
+				9C42F4F51B12283C0080D48B /* Images */,
+				9C42F4CD1B1226C70080D48B /* finalTallerSW */,
+				9C42F4E71B1226C70080D48B /* finalTallerSWTests */,
+				9C42F4CC1B1226C70080D48B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C42F4CC1B1226C70080D48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F4CB1B1226C70080D48B /* finalTallerSW.app */,
+				9C42F4E41B1226C70080D48B /* finalTallerSWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C42F4CD1B1226C70080D48B /* finalTallerSW */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F55E1B1293970080D48B /* Models */,
+				9C42F5051B12330C0080D48B /* Controllers */,
+				9C42F4D21B1226C70080D48B /* AppDelegate.h */,
+				9C42F4D31B1226C70080D48B /* AppDelegate.m */,
+				9C42F4D51B1226C70080D48B /* ViewController.h */,
+				9C42F4D61B1226C70080D48B /* ViewController.m */,
+				9C42F4D81B1226C70080D48B /* Main.storyboard */,
+				9C42F4DB1B1226C70080D48B /* Images.xcassets */,
+				9C42F4DD1B1226C70080D48B /* LaunchScreen.xib */,
+				9C42F4CE1B1226C70080D48B /* Supporting Files */,
+			);
+			path = finalTallerSW;
+			sourceTree = "<group>";
+		};
+		9C42F4CE1B1226C70080D48B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F4CF1B1226C70080D48B /* Info.plist */,
+				9C42F4D01B1226C70080D48B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C42F4E71B1226C70080D48B /* finalTallerSWTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F4EA1B1226C70080D48B /* finalTallerSWTests.m */,
+				9C42F4E81B1226C70080D48B /* Supporting Files */,
+			);
+			path = finalTallerSWTests;
+			sourceTree = "<group>";
+		};
+		9C42F4E81B1226C70080D48B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F4E91B1226C70080D48B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C42F4F51B12283C0080D48B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5591B128B760080D48B /* list_add_user.png */,
+				9C42F5571B128A470080D48B /* user-password.png */,
+				9C42F5441B123A570080D48B /* 1432504353_PauseNormalRed.png */,
+				9C42F5451B123A570080D48B /* 1432504366_Play1Pressed.png */,
+				9C42F5461B123A570080D48B /* stop1normalorange.png */,
+				9C42F5011B122F460080D48B /* register.png */,
+				9C42F5021B122F460080D48B /* user-login.png */,
+				9C42F4F71B122CC10080D48B /* lp.icon.png */,
+				9C42F4F81B122CC10080D48B /* Music-player-icon.png */,
+				9C42F4F91B122CC10080D48B /* note-icon.png */,
+				9C42F4FA1B122CC10080D48B /* Od0JWU1432483104.png */,
+				9C42F4FB1B122CC10080D48B /* sgsGkk1432483044.png */,
+				9C42F4F41B12283C0080D48B /* home.gif */,
+			);
+			name = Images;
+			path = finalTallerSW.xcodeproj;
+			sourceTree = "<group>";
+		};
+		9C42F5051B12330C0080D48B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5061B1233210080D48B /* UserHomeViewController.h */,
+				9C42F5071B1233210080D48B /* UserHomeViewController.m */,
+				9C42F5541B1288050080D48B /* LogInViewController.h */,
+				9C42F5551B1288050080D48B /* LogInViewController.m */,
+				9C42F55B1B128C3E0080D48B /* RegisterViewController.h */,
+				9C42F55C1B128C3E0080D48B /* RegisterViewController.m */,
+				9CDCAE531B13647300F0BDDF /* FavoriteSongsViewController.h */,
+				9CDCAE541B13647300F0BDDF /* FavoriteSongsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9C42F5091B1235A20080D48B /* Disco */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F50A1B1235A20080D48B /* Alphaville - Big in Japan.mp3 */,
+				9C42F50B1B1235A20080D48B /* Amandras - Another love.mp3 */,
+				9C42F50C1B1235A20080D48B /* Gary Low - You are a danger.mp3 */,
+				9C42F50D1B1235A20080D48B /* Koto - Jabdah.mp3 */,
+				9C42F50E1B1235A20080D48B /* New Romantique - Shy like an angel.mp3 */,
+				9C42F50F1B1235A20080D48B /* Radiorama - Aliens.mp3 */,
+			);
+			path = Disco;
+			sourceTree = "<group>";
+		};
+		9C42F5101B1235A20080D48B /* Electro-House */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5111B1235A20080D48B /* Arkasia - Back as one original.mp3 */,
+				9C42F5121B1235A20080D48B /* Empire Of The Sun - Alive.mp3 */,
+				9C42F5131B1235A20080D48B /* Flo rida - Whistle.mp3 */,
+				9C42F5141B1235A20080D48B /* PSY - Gangnam style.mp3 */,
+				9C42F5151B1235A20080D48B /* Rihanna - Diamonds.mp3 */,
+				9C42F5161B1235A20080D48B /* Sia - Chandelier.mp3 */,
+				9C42F5171B1235A20080D48B /* Steve aoki - Cake face.mp3 */,
+			);
+			path = "Electro-House";
+			sourceTree = "<group>";
+		};
+		9C42F5181B1235A20080D48B /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5191B1235A20080D48B /* Beyonce - Sweet dreams.mp3 */,
+				9C42F51A1B1235A20080D48B /* Eminem ft Rihanna - The monster.mp3 */,
+				9C42F51B1B1235A20080D48B /* Gotye - Somebody that i used to know.mp3 */,
+				9C42F51C1B1235A20080D48B /* Imagine Dragons - Radioactive.mp3 */,
+				9C42F51D1B1235A20080D48B /* Katy Perry - Roar.mp3 */,
+				9C42F51E1B1235A20080D48B /* Lady Gaga - Poker face.mp3 */,
+				9C42F51F1B1235A20080D48B /* Pharrell Williams - Happy.mp3 */,
+				9C42F5201B1235A20080D48B /* Pink - Just give me a reason.mp3 */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		9C42F5211B1235A20080D48B /* Rock */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5221B1235A20080D48B /* AC:DC - Black in black.mp3 */,
+				9C42F5231B1235A20080D48B /* AC:DC - Thunderstruck.mp3 */,
+				9C42F5241B1235A20080D48B /* Deep Purple - Smoke on the water.mp3 */,
+				9C42F5251B1235A20080D48B /* Queen - Show must go on.mp3 */,
+				9C42F5261B1235A20080D48B /* The Beatles - Girl.mp3 */,
+				9C42F5271B1235A20080D48B /* The Beatles - Yesterday.mp3 */,
+			);
+			path = Rock;
+			sourceTree = "<group>";
+		};
+		9C42F5431B1235A70080D48B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F5091B1235A20080D48B /* Disco */,
+				9C42F5101B1235A20080D48B /* Electro-House */,
+				9C42F5181B1235A20080D48B /* Pop */,
+				9C42F5211B1235A20080D48B /* Rock */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		9C42F55E1B1293970080D48B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F55F1B1293C60080D48B /* User.h */,
+				9C42F5601B1293C60080D48B /* User.m */,
+				9C42F5621B1294B20080D48B /* UserDAO.h */,
+				9C42F5631B1294B20080D48B /* UserDAO.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C42F4CA1B1226C70080D48B /* finalTallerSW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C42F4EE1B1226C70080D48B /* Build configuration list for PBXNativeTarget "finalTallerSW" */;
+			buildPhases = (
+				9C42F4C71B1226C70080D48B /* Sources */,
+				9C42F4C81B1226C70080D48B /* Frameworks */,
+				9C42F4C91B1226C70080D48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finalTallerSW;
+			productName = finalTallerSW;
+			productReference = 9C42F4CB1B1226C70080D48B /* finalTallerSW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C42F4E31B1226C70080D48B /* finalTallerSWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C42F4F11B1226C70080D48B /* Build configuration list for PBXNativeTarget "finalTallerSWTests" */;
+			buildPhases = (
+				9C42F4E01B1226C70080D48B /* Sources */,
+				9C42F4E11B1226C70080D48B /* Frameworks */,
+				9C42F4E21B1226C70080D48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C42F4E61B1226C70080D48B /* PBXTargetDependency */,
+			);
+			name = finalTallerSWTests;
+			productName = finalTallerSWTests;
+			productReference = 9C42F4E41B1226C70080D48B /* finalTallerSWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C42F4C31B1226C70080D48B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Laura Mejia Arroyave";
+				TargetAttributes = {
+					9C42F4CA1B1226C70080D48B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9C42F4E31B1226C70080D48B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9C42F4CA1B1226C70080D48B;
+					};
+				};
+			};
+			buildConfigurationList = 9C42F4C61B1226C70080D48B /* Build configuration list for PBXProject "finalTallerSW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C42F4C21B1226C70080D48B;
+			productRefGroup = 9C42F4CC1B1226C70080D48B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C42F4CA1B1226C70080D48B /* finalTallerSW */,
+				9C42F4E31B1226C70080D48B /* finalTallerSWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C42F4C91B1226C70080D48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C42F5001B122CC10080D48B /* sgsGkk1432483044.png in Resources */,
+				9C42F5491B123A570080D48B /* stop1normalorange.png in Resources */,
+				9C42F54F1B1240490080D48B /* pListElectro.plist in Resources */,
+				9C42F53A1B1235A20080D48B /* Lady Gaga - Poker face.mp3 in Resources */,
+				9C42F5381B1235A20080D48B /* Imagine Dragons - Radioactive.mp3 in Resources */,
+				9C42F5311B1235A20080D48B /* PSY - Gangnam style.mp3 in Resources */,
+				9C42F4DA1B1226C70080D48B /* Main.storyboard in Resources */,
+				9C42F52F1B1235A20080D48B /* Empire Of The Sun - Alive.mp3 in Resources */,
+				9C42F53B1B1235A20080D48B /* Pharrell Williams - Happy.mp3 in Resources */,
+				9C42F5031B122F460080D48B /* register.png in Resources */,
+				9C42F4FC1B122CC10080D48B /* lp.icon.png in Resources */,
+				9C42F5411B1235A20080D48B /* The Beatles - Girl.mp3 in Resources */,
+				9C42F52B1B1235A20080D48B /* Koto - Jabdah.mp3 in Resources */,
+				9C42F54B1B12401F0080D48B /* pListCat.plist in Resources */,
+				9C42F54D1B1240380080D48B /* pListDisco.plist in Resources */,
+				9C42F4FE1B122CC10080D48B /* note-icon.png in Resources */,
+				9C42F4F61B12283C0080D48B /* home.gif in Resources */,
+				9C42F4FD1B122CC10080D48B /* Music-player-icon.png in Resources */,
+				9C42F4DF1B1226C70080D48B /* LaunchScreen.xib in Resources */,
+				9C42F52D1B1235A20080D48B /* Radiorama - Aliens.mp3 in Resources */,
+				9C42F52A1B1235A20080D48B /* Gary Low - You are a danger.mp3 in Resources */,
+				9C42F5511B1240560080D48B /* pListPop.plist in Resources */,
+				9C42F55A1B128B760080D48B /* list_add_user.png in Resources */,
+				9C42F5041B122F460080D48B /* user-login.png in Resources */,
+				9C42F53D1B1235A20080D48B /* AC:DC - Black in black.mp3 in Resources */,
+				9C42F5281B1235A20080D48B /* Alphaville - Big in Japan.mp3 in Resources */,
+				9C42F53C1B1235A20080D48B /* Pink - Just give me a reason.mp3 in Resources */,
+				9C42F5421B1235A20080D48B /* The Beatles - Yesterday.mp3 in Resources */,
+				9C42F4FF1B122CC10080D48B /* Od0JWU1432483104.png in Resources */,
+				9C42F5291B1235A20080D48B /* Amandras - Another love.mp3 in Resources */,
+				9C42F4DC1B1226C70080D48B /* Images.xcassets in Resources */,
+				9C42F53F1B1235A20080D48B /* Deep Purple - Smoke on the water.mp3 in Resources */,
+				9C42F5331B1235A20080D48B /* Sia - Chandelier.mp3 in Resources */,
+				9C42F5351B1235A20080D48B /* Beyonce - Sweet dreams.mp3 in Resources */,
+				9C42F5481B123A570080D48B /* 1432504366_Play1Pressed.png in Resources */,
+				9C42F53E1B1235A20080D48B /* AC:DC - Thunderstruck.mp3 in Resources */,
+				9C42F5341B1235A20080D48B /* Steve aoki - Cake face.mp3 in Resources */,
+				9C42F5581B128A470080D48B /* user-password.png in Resources */,
+				9C42F5531B1240650080D48B /* pListRock.plist in Resources */,
+				9C42F5471B123A570080D48B /* 1432504353_PauseNormalRed.png in Resources */,
+				9C42F52C1B1235A20080D48B /* New Romantique - Shy like an angel.mp3 in Resources */,
+				9C42F5401B1235A20080D48B /* Queen - Show must go on.mp3 in Resources */,
+				9C42F5301B1235A20080D48B /* Flo rida - Whistle.mp3 in Resources */,
+				9C42F52E1B1235A20080D48B /* Arkasia - Back as one original.mp3 in Resources */,
+				9C42F5391B1235A20080D48B /* Katy Perry - Roar.mp3 in Resources */,
+				9C42F5371B1235A20080D48B /* Gotye - Somebody that i used to know.mp3 in Resources */,
+				9C42F5321B1235A20080D48B /* Rihanna - Diamonds.mp3 in Resources */,
+				9C42F5361B1235A20080D48B /* Eminem ft Rihanna - The monster.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C42F4E21B1226C70080D48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C42F4C71B1226C70080D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C42F4D71B1226C70080D48B /* ViewController.m in Sources */,
+				9C42F5611B1293C60080D48B /* User.m in Sources */,
+				9C42F55D1B128C3E0080D48B /* RegisterViewController.m in Sources */,
+				9C42F4D41B1226C70080D48B /* AppDelegate.m in Sources */,
+				9C42F5561B1288050080D48B /* LogInViewController.m in Sources */,
+				9C42F5081B1233210080D48B /* UserHomeViewController.m in Sources */,
+				9C42F4D11B1226C70080D48B /* main.m in Sources */,
+				9C42F5641B1294B20080D48B /* UserDAO.m in Sources */,
+				9CDCAE551B13647300F0BDDF /* FavoriteSongsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C42F4E01B1226C70080D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C42F4EB1B1226C70080D48B /* finalTallerSWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C42F4E61B1226C70080D48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C42F4CA1B1226C70080D48B /* finalTallerSW */;
+			targetProxy = 9C42F4E51B1226C70080D48B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C42F4D81B1226C70080D48B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C42F4D91B1226C70080D48B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C42F4DD1B1226C70080D48B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C42F4DE1B1226C70080D48B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C42F4EC1B1226C70080D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C42F4ED1B1226C70080D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C42F4EF1B1226C70080D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = finalTallerSW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C42F4F01B1226C70080D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = finalTallerSW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C42F4F21B1226C70080D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = finalTallerSWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalTallerSW.app/finalTallerSW";
+			};
+			name = Debug;
+		};
+		9C42F4F31B1226C70080D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = finalTallerSWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalTallerSW.app/finalTallerSW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C42F4C61B1226C70080D48B /* Build configuration list for PBXProject "finalTallerSW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C42F4EC1B1226C70080D48B /* Debug */,
+				9C42F4ED1B1226C70080D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C42F4EE1B1226C70080D48B /* Build configuration list for PBXNativeTarget "finalTallerSW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C42F4EF1B1226C70080D48B /* Debug */,
+				9C42F4F01B1226C70080D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C42F4F11B1226C70080D48B /* Build configuration list for PBXNativeTarget "finalTallerSWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C42F4F21B1226C70080D48B /* Debug */,
+				9C42F4F31B1226C70080D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C42F4C31B1226C70080D48B /* Project object */;
+}
